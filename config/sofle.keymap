@@ -88,11 +88,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                               &trans         &trans         &trans        &trans      &trans                &kp PRINTSCREEN
-&kp TAB     &trans        &trans        &kp INS       &trans        &trans                                     &kp PAGE_UP    &kp BACKSPACE  &kp UP_ARROW  &kp DELETE  &kp C_BRIGHTNESS_INC  &kt END
-&kp LSHFT   &trans        &trans        &kp K_PASTE   &kp K_COPY    &kp K_CUT                                  &kp PAGE_DOWN  &kp LEFT       &kp DOWN      &kp RIGHT   &kp C_BRIGHTNESS_DEC  &trans
-&kp LCTRL   &trans        &trans        &trans        &trans        &trans        &kp K_REFRESH    &kp K_MUTE  &trans         &trans         &trans        &trans      &trans                &kp K_LOCK
-                          &mo 1         &kp LGUI      &kp LALT      &kp SPACE     &kp ENTER        &mo 0       &kp LEFT_GUI   &trans         &trans        &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                               &trans             &trans         &trans        &trans      &trans                &kp PRINTSCREEN
+&kp TAB     &trans        &trans        &kp INS       &trans        &trans                                     &kp C_AC_ZOOM_IN   &kp BACKSPACE  &kp UP_ARROW  &kp DELETE  &kp C_BRIGHTNESS_INC  &kt END
+&kp LSHFT   &trans        &trans        &kp K_PASTE   &kp K_COPY    &kp K_CUT                                  &kp C_AC_ZOOM_OUT  &kp LEFT       &kp DOWN      &kp RIGHT   &kp C_BRIGHTNESS_DEC  &trans
+&kp LCTRL   &trans        &trans        &trans        &trans        &trans        &kp K_REFRESH    &kp K_MUTE  &trans             &trans         &trans        &trans      &trans                &kp K_LOCK
+                          &mo 1         &kp LGUI      &kp LALT      &kp SPACE     &kp ENTER        &mo 0       &kp LEFT_GUI       &trans         &trans        &trans
             >;
 
             sensor-bindings =
