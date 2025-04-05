@@ -65,11 +65,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4          &kp F5         &kp F6                                        &kp F7          &kp F8      &kp F8         &kp F10          &kp F11       &kp F12
-&kp ESC  &none   &none   &kp INS         &none          &none                                         &kt KP_NUMLOCK  &kp K_COPY  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &kp BACKSPACE
-&none    &none   &none   &kt C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT                                  &kp CAPS        &kp N7      &kp N8         &kp N9           &kp KP_PLUS   &none
-&none    &none   &none   &none           &none          &none         &kt C_AC_REFRESH    &kt K_MUTE  &none           &kp N4      &kp N5         &kp N6           &kp ENTER     &none
-                 &mo 0   &kp LEFT_ALT    &kp LEFT_GUI   &kp SPACE     &trans              &mo 2       &kp N0          &kp N1      &kp N2         &kp N3
+&kp F1   &kp F2  &kp F3  &kp F4          &kp F5         &kp F6                                        &kp F7  &kp F8      &kp F8         &kp F10          &kp F11       &kp F12
+&kp ESC  &none   &none   &kp INS         &none          &none                                         &none   &kp K_COPY  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &kp BACKSPACE
+&none    &none   &none   &kt C_AC_PASTE  &kp C_AC_COPY  &kp C_AC_CUT                                  &none   &kp N7      &kp N8         &kp N9           &kp KP_PLUS   &none
+&none    &none   &none   &none           &none          &none         &kt C_AC_REFRESH    &kt K_MUTE  &none   &kp N4      &kp N5         &kp N6           &kp ENTER     &none
+                 &mo 0   &kp LEFT_ALT    &kp LEFT_GUI   &kp SPACE     &trans              &mo 2       &kp N0  &kp N1      &kp N2         &kp N3
             >;
 
             sensor-bindings =
