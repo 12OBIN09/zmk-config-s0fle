@@ -41,11 +41,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE         &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                     &kp N6     &kp N7            &kp N8             &kp N9         &kp N0    &kp MINUS
-&kp TAB           &kp Q   &kp W   &kp E         &kp R         &kp T                                      &kp Y      &kp U             &kp I              &kp O          &kp P     &kp BACKSPACE
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D         &kp F         &kp G                                      &kp H      &kp J             &kp K              &kp L          &kp SEMI  &kp APOS
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C         &kp V         &kp B      &kp C_AC_REFRESH    &kp K_MUTE  &kp N      &kp M             &kp COMMA          &kp DOT        &kp FSLH  &kp RSHFT
-                          &mo 1   &kp LEFT_ALT  &kp LEFT_GUI  &kp SPACE  &kp ENTER           &mo 2       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp MINUS        &kp N0         &kp N9                &kp N8            &kp N7             &kp NUMBER_6                            &kp N6     &kp N7            &kp N8             &kp N9         &kp N0    &kp MINUS
+&kp BACKSPACE    &kp P          &kp O                 &kp I             &kp U              &kp Y                                   &kp Y      &kp U             &kp I              &kp O          &kp P     &kp BACKSPACE
+&kp SQT          &kp SEMICOLON  &kp L                 &kp K             &kp J              &kp H                                   &kp H      &kp J             &kp K              &kp L          &kp SEMI  &kp APOS
+&kp RIGHT_SHIFT  &kp SLASH      &kp PERIOD            &kp COMMA         &kp M              &kp N         &kp K_MUTE    &kp K_MUTE  &kp N      &kp M             &kp COMMA          &kp DOT        &kp FSLH  &kp RSHFT
+                                &kp NON_US_BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL     &mo 2         &mo 2       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
             >;
 
             sensor-bindings =
