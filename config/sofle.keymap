@@ -69,7 +69,7 @@
 &kp BACKSPACE   &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_SLASH  &kp K_COPY    &none                                   &none   &kp K_COPY  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &kp BACKSPACE
 &kp KP_NUMLOCK  &kp KP_PLUS   &kp N9           &kt N8        &kp N7        &none                                   &none   &kp N7      &kp N8         &kp N9           &kp KP_PLUS   &kp KP_NUM
 &kp CAPSLOCK    &kt ENTER     &kp NUMBER_6     &kp N5        &kp NUMBER_4  &none         &kt K_MUTE    &kt K_MUTE  &none   &kp N4      &kp N5         &kp N6           &kp ENTER     &kp CAPS
-                              &kt NUMBER_3     &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &mo 2         &mo 2       &kp N0  &kp N1      &kp N2         &kp N3
+                              &kt NUMBER_3     &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &mo 2         &mo 1       &kp N0  &kp N1      &kp N2         &kp N3
             >;
 
             sensor-bindings =
@@ -113,7 +113,7 @@
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                               &none  &none  &none  &none  &none  &none
 &ext_power EP_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                            &none  &none  &none  &none  &none  &none
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                                      &none  &none  &none  &none  &none  &none
-&none              &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &none
+&none              &none            &none            &none            &none            &tog 0           &rgb_ug RGB_TOG    &none  &none  &none  &none  &none  &none  &none
                                     &to 0            &none            &none            &none            &none              &to 0  &none  &none  &none  &none
             >;
         };
