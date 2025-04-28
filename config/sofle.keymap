@@ -68,8 +68,8 @@
 &kp F12         &kp F11       &kp F10          &kp F9        &kp F8        &kp F7                                  &kp F7  &kp F8      &kp F8         &kp F10          &kp F11       &kp F12
 &kp BACKSPACE   &kp KP_MINUS  &kp KP_MULTIPLY  &kp KP_SLASH  &kp K_COPY    &none                                   &none   &kp K_COPY  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS  &kp BACKSPACE
 &kp KP_NUMLOCK  &kp KP_PLUS   &kp N9           &kt N8        &kp N7        &none                                   &none   &kp N7      &kp N8         &kp N9           &kp KP_PLUS   &kp KP_NUM
-&kp CAPSLOCK    &kt ENTER     &kp NUMBER_6     &kp N5        &kp NUMBER_4  &none         &kt K_MUTE    &kt K_MUTE  &none   &kp N4      &kp N5         &kp N6           &kp ENTER     &kp CAPS
-                              &kt NUMBER_3     &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &mo 2         &mo 1       &kp N0  &kp N1      &kp N2         &kp N3
+&kp CAPSLOCK    &kt ENTER     &kp NUMBER_6     &kp N5        &kp NUMBER_4  &tog 0        &kt K_MUTE    &kt K_MUTE  &none   &kp N4      &kp N5         &kp N6           &kp ENTER     &kp CAPS
+                              &kt NUMBER_3     &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &tog 0        &mo 1       &kp N0  &kp N1      &kp N2         &kp N3
             >;
 
             sensor-bindings =
